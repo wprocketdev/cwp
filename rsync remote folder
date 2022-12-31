@@ -1,0 +1,5 @@
+// rsync remote folder 
+
+
+rsync -a --delete /newbackup/ root@154.12.235.211:/newbackup/
+
