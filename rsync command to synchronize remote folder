@@ -1,6 +1,9 @@
-//rsync command to synchronize remote folder
+//rsync command to synchronize remote folder and delete redundant folder
 //https://www.youtube.com/watch?v=z35ZPELo5_Y
 rsync -a --delete /newbackup/ root@154.12.235.211:/newbackup/
 
+
+//Synchronize remote folder 
+rsync -av /newbackup/ root@154.12.235.211:/newbackup/
 
 
